@@ -1,7 +1,7 @@
 import * as React from 'react'
 import { useState } from 'react'
 import { Grid, Typography, Box, Select, MenuItem, TextField, FormControlLabel, Radio, RadioGroup, FormLabel, Button } from '@material-ui/core';
-const serverURL = "http://ec2-18-216-101-119.us-east-2.compute.amazonaws.com:3016"
+const serverURL = ""
 const App = () => {
   let [error, setError] = useState(null)
   let [message, setMessage] = useState('')
